@@ -1,0 +1,244 @@
+{
+  "rootPath": "/home/hao/FullSpecModels/Livingroom",
+  "texturePath": "textures",
+  "intermediatePath": "full_texture_new_expanded",
+  "scene": "Scene",
+  "name": "full001",
+  "textures": ["DSC_8129.jpg.st"],
+  "objects": [
+    {
+      "type": "MATERIAL",
+      "name": "wall",
+      "node": "Diffuse BSDF",
+      "input": 0,
+      "value": ""
+    },
+    {
+      "type": "MATERIAL",
+      "name": "emissions",
+      "node": "Emission",
+      "input": 0,
+      "value": ""
+    },
+    {
+      "type": "MATERIAL",
+      "name": "doors",
+      "node": "Mix",
+      "input": 2,
+      "value": ""
+    },
+    {
+      "type": "MATERIAL",
+      "name": "plastc.black",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": ""
+    },
+    {
+      "type": "MATERIAL",
+      "name": "plastc.white",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": ""
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet",
+      "node": "Mix",
+      "input": "Color2",
+      "value": ""
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet",
+      "node": "Mix",
+      "input": "Color2",
+      "value": ""
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet",
+      "node": "Mix.002",
+      "input": "Color2",
+      "value": ""
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet",
+      "node": "Velvet BSDF",
+      "input": "Color",
+      "value": ""
+    }
+  ],
+  ma['carpet.particles'].node_tree.nodes['Diffuse BSDF'].inputs['Color'].default_value
+  ma['carpet.particles'].node_tree.nodes['Hair BSDF'].inputs['Color'].default_value
+  ma['curtain'].node_tree.nodes['Mix'].inputs['Color2'].default_value
+  ma['curtain'].node_tree.nodes['Mix'].inputs['Color2'].default_value
+  ma['curtain'].node_tree.nodes['Mix'].inputs['Color2'].default_value
+  ma['sofa'].node_tree.nodes['Mix'].inputs['Color2'].default_value
+  ma['sofa'].node_tree.nodes['Mix'].inputs['Color2'].default_value
+  ma['frame'].node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value
+  ma['wood'].node_tree.nodes['Mix.004'].inputs['Color2'].default_value
+  ma['wood'].node_tree.nodes['Mix.003'].inputs['Color2'].default_value
+  ma['wood'].node_tree.nodes['Mix.003'].inputs['Color2'].default_value
+  ma['worn.metal'].node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value
+  ma['plastic.pearl'].node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value
+  ma['plastic.pearl'].node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value
+  ma['plastic.pearl'].node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value
+  ma['lamp.white'].node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value
+  ma['leaves'].node_tree.nodes['Mix'].inputs['Color2'].default_value
+  ma['leaves.dark'].node_tree.nodes['Mix'].inputs['Color2'].default_value
+  ma['leaves.var2'].node_tree.nodes['Mix'].inputs['Color2'].default_value
+
+  
+  "viewports": [
+    {
+      "location": [-18.98548698425293, -4.051238059997559, 3.810028314590454],
+      "rotation": [
+        1.4308072328567505,
+        -1.6559762343604234e-6,
+        11.292472839355469
+      ]
+    },
+    {
+      "location": [-16.70574378967285, -9.312332153320312, 3.8100168704986572],
+      "rotation": [
+        1.4308078289031982,
+        -1.4108699133430491e-6,
+        11.516472816467285
+      ]
+    },
+    {
+      "location": [-8.607353210449219, -11.985347747802734, 5.4313483238220215],
+      "rotation": [
+        1.3258079290390015,
+        -1.2928520618515904e-6,
+        11.82447338104248
+      ]
+    },
+    {
+      "location": [-2.5462522506713867, -11.975861549377441, 4.680765628814697],
+      "rotation": [
+        1.3188084363937378,
+        -1.160752276518906e-6,
+        12.083473205566406
+      ]
+    },
+    {
+      "location": [2.6721227169036865, -13.485712051391602, 5.528670787811279],
+      "rotation": [
+        1.269808292388916,
+        -1.0968971082547796e-6,
+        12.398473739624023
+      ]
+    },
+    {
+      "location": [19.019214630126953, -17.706151962280273, 6.654242992401123],
+      "rotation": [
+        1.318809151649475,
+        -1.1626717650869978e-6,
+        13.133474349975586
+      ]
+    },
+    {
+      "location": [23.812931060791016, -13.866090774536133, 6.302398204803467],
+      "rotation": [
+        1.3328099250793457,
+        -1.2930732964377967e-6,
+        13.378475189208984
+      ]
+    },
+    {
+      "location": [32.578773498535156, -9.396937370300293, 8.57638168334961],
+      "rotation": [
+        1.2978100776672363,
+        -1.241111135641404e-6,
+        13.693475723266602
+      ]
+    },
+    {
+      "location": [-7.868343353271484, -2.3584442138671875, 3.525319814682007],
+      "rotation": [
+        1.3468096256256104,
+        -1.4376464605447836e-6,
+        11.404476165771484
+      ]
+    },
+    {
+      "location": [-8.480266571044922, 1.8833801746368408, 1.8566458225250244],
+      "rotation": [-1.6193392276763916, -15.707959175109863, -4.940489768981934]
+    },
+    {
+      "location": [-4.977381706237793, -6.952368259429932, 2.5984795093536377],
+      "rotation": [
+        1.4098103046417236,
+        -1.2201402341815992e-6,
+        11.775476455688477
+      ]
+    },
+    {
+      "location": [-2.682490348815918, -12.23575210571289, 3.3273539543151855],
+      "rotation": [
+        1.395810842514038,
+        -1.1479302202133113e-6,
+        12.083477020263672
+      ]
+    },
+    {
+      "location": [-0.7537922859191895, -13.08044147491455, 3.451277732849121],
+      "rotation": [
+        1.3888107538223267,
+        -1.1881083992193453e-6,
+        12.20247745513916
+      ]
+    },
+    {
+      "location": [4.056899070739746, -14.220414161682129, 3.2032835483551025],
+      "rotation": [
+        1.4028104543685913,
+        -1.2045127277815482e-6,
+        12.482478141784668
+      ]
+    },
+    {
+      "location": [17.70511245727539, -13.98125171661377, 3.9537289142608643],
+      "rotation": [1.3958100080490112, -1.2689678214883315e-6, 13.1754789352417]
+    },
+    {
+      "location": [-4.57198429107666, -3.3327484130859375, 2.970348834991455],
+      "rotation": [
+        1.3468108177185059,
+        -1.3035247548032203e-6,
+        11.586479187011719
+      ]
+    },
+    {
+      "location": [-6.221794605255127, 1.837129831314087, 3.609361410140991],
+      "rotation": [
+        1.2908105850219727,
+        -1.5156008430494694e-6,
+        10.816478729248047
+      ]
+    },
+    {
+      "location": [-8.708108901977539, -2.053563117980957, 4.299795150756836],
+      "rotation": [
+        1.2908109426498413,
+        -1.5264974990714109e-6,
+        11.11747932434082
+      ]
+    },
+    {
+      "location": [-5.926477432250977, -8.75135612487793, 4.701520919799805],
+      "rotation": [
+        1.2628109455108643,
+        -1.3059378716206993e-6,
+        11.62847900390625
+      ]
+    },
+    {
+      "location": [11.6458740234375, 7.561159610748291, 4.575321674346924],
+      "rotation": [1.2698112726211548, -6.733334885211661e-7, 8.695479393005371]
+    }
+  ]
+}

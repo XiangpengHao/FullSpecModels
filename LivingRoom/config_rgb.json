@@ -1,0 +1,294 @@
+{
+  "rootPath": "/home/hao/FullSpecModels/Livingroom",
+  "texturePath": "textures",
+  "intermediatePath": "full_texture_new_expanded",
+  "scene": "Scene",
+  "name": "full001",
+  "textures": ["DSC_8129.jpg.st"],
+  "objects": [
+    {
+      "type": "MATERIAL",
+      "name": "emissions",
+      "node": "Emission",
+      "input": "Color",
+      "value": [0.7874122262001038, 0.3220597207546234, 0.1065390333533287, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "doors",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.014541740529239178,
+        0.019060121849179268,
+        0.027211785316467285,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.7874122262001038, 0.5804768800735474, 0.2912490665912628, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet",
+      "node": "Mix.002",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.6587289571762085,
+        0.45600464940071106,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet",
+      "node": "Velvet BSDF",
+      "input": "Color",
+      "value": [
+        0.10653924196958542,
+        0.09830081462860107,
+        0.08413518220186234,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet.particles",
+      "node": "Diffuse BSDF",
+      "input": "Color",
+      "value": [
+        0.7874122262001038,
+        0.6587289571762085,
+        0.45600464940071106,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet.particles",
+      "node": "Hair BSDF",
+      "input": "Color",
+      "value": [
+        0.7874122262001038,
+        0.6587289571762085,
+        0.45600464940071106,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "curtain",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.7874122262001038, 0.7213971614837646, 0.6085841059684753, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "curtain",
+      "node": "Velvet BSDF",
+      "input": "Color",
+      "value": [0.7874122262001038, 0.7213971614837646, 0.6085841059684753, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "curtain",
+      "node": "Translucent BSDF",
+      "input": "Color",
+      "value": [0.5225215554237366, 0.5225215554237366, 0.5225215554237366, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "sofa",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.5010620951652527,
+        0.25663867592811584,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "sofa",
+      "node": "Mix.003",
+      "input": "Color2",
+      "value": [0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.sofa",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.03831017017364502,
+        0.02229064144194126,
+        0.015417416580021381,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "frame",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.7874122262001038, 0.721397340297699, 0.6085841059684753, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood",
+      "node": "Mix.004",
+      "input": "Color2",
+      "value": [
+        0.0134117491543293,
+        0.002729965141043067,
+        0.0009268253343179822,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood",
+      "node": "Mix.003",
+      "input": "Color2",
+      "value": [
+        0.17064493894577026,
+        0.0624607689678669,
+        0.027209797874093056,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "worn.brass",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.3185468018054962,
+        0.22950270771980286,
+        0.10802391916513443,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "worn.metal",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.027211785316467285,
+        0.020752567797899246,
+        0.011429772712290287,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "plastic.pearl",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.7874122262001038,
+        0.5615811347961426,
+        0.25663867592811584,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "lamp.white",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.8000000715255737, 0.6692096590995789, 0.4631800055503845, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "lamp.cloth",
+      "node": "Mix.001",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.5615816116333008,
+        0.25663846731185913,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "lamp.cloth",
+      "node": "Mix.004",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.5615816116333008,
+        0.25663846731185913,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "leaves",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.6587289571762085,
+        0.45600441098213196,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "leaves.dark",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.6587289571762085,
+        0.45600441098213196,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "leaves.var2",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.6587289571762085,
+        0.45600441098213196,
+        1.0
+      ]
+    },
+    {
+      "type": "WORLDS",
+      "name": "World",
+      "node": "Background",
+      "input": "Color",
+      "value": [0.7122872471809387, 0.657537579536438, 0.5679886937141418, 1.0]
+    }
+  ],
+  "viewports": [
+    {
+      "location": [-18.98548698425293, -4.051238059997559, 3.810028314590454],
+      "rotation": [
+        1.4308072328567505,
+        -1.6559762343604234e-6,
+        11.292472839355469
+      ]
+    }
+  ]
+}

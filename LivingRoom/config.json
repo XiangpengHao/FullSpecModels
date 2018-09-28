@@ -1,10 +1,9 @@
 {
   "rootPath": "/home/hao/FullSpecModels/Livingroom",
-  "texturePath": "textures",
-  "intermediatePath": "full_texture_new_expanded",
+  "texturePath": "textures/ColorData",
+  "intermediatePath": "textures/intermediate",
   "scene": "Scene",
   "name": "full001",
-  "textures": ["DSC_8129.jpg.st"],
   "objects": [
     {
       "type": "MATERIAL",

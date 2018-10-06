@@ -3,8 +3,8 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "test",
-  "startFrom": 0,
+  "name": "full001",
+  "startFrom": 40,
   "locations": [
     {
       "name": "Sun",

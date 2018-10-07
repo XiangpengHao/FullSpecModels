@@ -1,8 +1,11 @@
 {
-  "rootPath": "/home/hao/FullSpecModels/Butterfly",
-  "texturePath": "textures",
+  "rootPath": "/home/hao/FullSpecModels/FullSpecModels/Butterfly",
+  "texturePath": "textures/ColorData",
+  "intermediatePath": "textures/intermediate",
   "scene": "Scene",
   "name": "origin",
+  "viewports": "viewports.json",
+  "startFrom": 0,
   "colorNodes": [
     {
       "type": "LIGHTS",
@@ -75,7 +78,7 @@
       ]
     },
     {
-      "type": "LIGTHS",
+      "type": "LIGHTS",
       "name": ["Spot", "Spot.001", "Spot.002", "Spot.003", "Spot.004"],
       "node": "Emission",
       "input": "Color",
@@ -287,7 +290,7 @@
     {
       "type": "WORLDS",
       "name": "World",
-      "node": "Background",
+      "node": "Background.002",
       "input": "Color",
       "__nickname": "d65",
       "value": [

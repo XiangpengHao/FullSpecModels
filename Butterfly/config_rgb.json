@@ -1,0 +1,244 @@
+{
+  "rootPath": "/home/hao/FullSpecModels/Butterfly",
+  "texturePath": "textures",
+  "scene": "Scene",
+  "name": "origin",
+  "colorNodes": [
+    {
+      "type": "MATERIAL",
+      "name": "carpet.white",
+      "node": "Velvet BSDF",
+      "input": "Color",
+      "value": [0.7874122262001038, 0.7213971614837646, 0.6085841059684753, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "carpet.white",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.7874122262001038, 0.7213971614837646, 0.6085841059684753, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "curtain",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.7874122262001038, 0.7213971614837646, 0.6085841059684753, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "curtain",
+      "node": "Velvet BSDF",
+      "input": "Color",
+      "value": [0.7874122262001038, 0.7213971614837646, 0.6085841059684753, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "curtain.green",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.0034988003317266703,
+        0.027211785316467285,
+        0.00559861259534955,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "curtain.green",
+      "node": "Mix.002",
+      "input": "Color2",
+      "value": [
+        0.004281094763427973,
+        0.038310736417770386,
+        0.007169272750616074,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "curtain.green",
+      "node": "Velvet BSDF",
+      "input": "Color",
+      "value": [
+        0.10653924196958542,
+        0.09830081462860107,
+        0.08413518220186234,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "dressoir",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.01960664987564087,
+        0.015184370800852776,
+        0.012971794232726097,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "glass",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.4540538787841797, 0.5786913633346558, 0.8000000715255737, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "glass.001",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.9987947940826416,
+        0.35249632596969604,
+        0.2628128230571747,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "glass.red",
+      "node": "Mix",
+      "input": "Color1",
+      "value": [
+        0.29182517528533936,
+        0.49999991059303284,
+        0.3208085298538208,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "glass.red",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.11331509798765182,
+        0.041435565799474716,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "paper",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.8000000715255737, 0.7660232782363892, 0.7057114243507385, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "pillow",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.5225215554237366, 0.4022107720375061, 0.1730879694223404, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "plastic.yellow",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.7874122262001038,
+        0.4622451961040497,
+        0.10653901100158691,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "plastic.yellow",
+      "node": "Glossy BSDF",
+      "input": "Color",
+      "value": [
+        0.7874122262001038,
+        0.3615080714225769,
+        0.08617879450321198,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "porcelain.black",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.006571405567228794,
+        0.00590073736384511,
+        0.004773823078721762,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "porcelain.white",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.8000000715255737, 0.7660232782363892, 0.7057114243507385, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "sofa.red",
+      "node": "Principled BSDF.001",
+      "input": "Base Color",
+      "value": [
+        0.22341400384902954,
+        0.0973895862698555,
+        0.10876909643411636,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "sofa.yellow",
+      "node": "Mix.002",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.3573266565799713,
+        0.05846760794520378,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.dark",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.01960664987564087,
+        0.015179282054305077,
+        0.012974544428288937,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.sofa",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.03831017017364502,
+        0.02229064144194126,
+        0.015417416580021381,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.yellow",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.3595743477344513,
+        0.08611470460891724,
+        1.0
+      ]
+    }
+  ]
+}

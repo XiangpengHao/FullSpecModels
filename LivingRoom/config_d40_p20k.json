@@ -4,8 +4,8 @@
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
   "name": "full002",
-  "startFrom": 0,
-  "objects": [
+  "startFrom": 40,
+  "colorNodes": [
     {
       "type": "LIGHTS",
       "name": "Sun",

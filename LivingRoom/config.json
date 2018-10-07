@@ -4,7 +4,7 @@
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
   "name": "full001",
-  "startFrom": 40,
+  "startFrom": 41,
   "locations": [
     {
       "name": "Sun",

@@ -4,8 +4,8 @@
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
   "name": "full001_truth",
-  "startFrom": 0,
-  "objects": [
+  "startFrom": 40,
+  "colorNodes": [
     {
       "type": "MATERIAL",
       "name": "emissions",

@@ -12,6 +12,7 @@
             "name": "Material.001",
             "node": "Glass BSDF",
             "input": "IOR",
+            "__reference__": "https://refractiveindex.info/?shelf=glass&book=SF11&page=HIKARI",
             "value": [
                 1.8422528062248842,
                 1.8333740415006392,

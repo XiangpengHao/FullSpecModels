@@ -3,8 +3,8 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "full002",
-  "startFrom": 40,
+  "name": "new_d40_p20k",
+  "startFrom": 0,
   "colorNodes": [
     {
       "type": "LIGHTS",

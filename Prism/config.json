@@ -6,13 +6,14 @@
     "name": "full001",
     "startFrom": 0,
     "viewports": "viewports.json",
-    "valueNodes": [
+    "colorNodes": [
         {
             "type": "MATERIALS",
             "name": "Material.001",
             "node": "Glass BSDF",
             "input": "IOR",
             "__reference__": "https://refractiveindex.info/?shelf=glass&book=SF11&page=HIKARI",
+            "value_length": 1,
             "value": [
                 1.8422528062248842,
                 1.8333740415006392,
@@ -35,9 +36,7 @@
                 1.7740327823867825,
                 1.7726203603359254
             ]
-        }
-    ],
-    "colorNodes": [
+        },
         {
             "type": "LIGHTS",
             "name": "Sun.001",

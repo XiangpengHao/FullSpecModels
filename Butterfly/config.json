@@ -5,7 +5,155 @@
   "name": "test",
   "viewports": "viewports.json",
   "startFrom": 0,
-  "textureNodes": [],
+  "textureNodes": [
+    {
+      "type": "TEXTURE",
+      "name": "3591-e1458032265706",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "3591-e1458032265706"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "776px-GOBcover2018",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "776px-GOBcover2018"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "Burn_Magazine_for_Book_Burners_Self_Help_-_Cornershop_magazine_",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Burn"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "carpet",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "yellow_cotton_01_Color"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "carpet.particles",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "yellow_cotton_01_Color"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "carpet.white",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Fabric03_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "curtain",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Fabric03_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "curtain.green",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Fabric03_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "Edition_One",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Edition_One"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "floor",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Marble13_COL_3K"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "glass.002",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "texture-1821533_1280"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "glass.lamp",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Scratched_gold_01_Color"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "glass.lamp.001",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Scratched_gold_01_Color"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "LeafSet01_col",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "LeafSet01_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "pillow",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Fabric09_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "sofa.red",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Fabric09_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "sofa.yellow",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Fabric07_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "Trondhjems_Adresseavis_17._mai_1905_-_framside",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Trondhjems"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "wall.bricks",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Wall_Dif_white"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "wall.bricks",
+      "node": "Image Texture.003",
+      "input": "image",
+      "value": "butterfly01-col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "wood.yellow",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Panel_Maple_Alb"
+    }
+  ],
   "colorNodes": [
     {
       "type": "LIGHTS",
@@ -79,7 +227,13 @@
     },
     {
       "type": "LIGHTS",
-      "name": ["Spot", "Spot.001", "Spot.002", "Spot.003", "Spot.004"],
+      "name": [
+        "Spot",
+        "Spot.001",
+        "Spot.002",
+        "Spot.003",
+        "Spot.004"
+      ],
       "node": "Emission",
       "input": "Color",
       "__nickname": "d50",
@@ -149,7 +303,10 @@
     },
     {
       "type": "MATERIAL",
-      "name": ["neon", "neon.001"],
+      "name": [
+        "neon",
+        "neon.001"
+      ],
       "node": "Emission",
       "input": "Color",
       "__nickname": "d50",
@@ -219,7 +376,10 @@
     },
     {
       "type": "MATERIAL",
-      "name": ["emissions.lamp.001", "emissions.lamp"],
+      "name": [
+        "emissions.lamp.001",
+        "emissions.lamp"
+      ],
       "node": "Emission",
       "input": "Color",
       "__nickname": "illA",

@@ -3,7 +3,7 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "full006",
+  "name": "full007",
   "startFrom": 0,
   "viewports": "viewports.json",
   "colorNodes": [

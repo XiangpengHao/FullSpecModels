@@ -1,11 +1,11 @@
 {
-  "rootPath": "/home/hao/FullSpecModels/FullSpecModels/Butterfly",
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
   "name": "test",
   "viewports": "viewports.json",
   "startFrom": 0,
+  "textureNodes": [],
   "colorNodes": [
     {
       "type": "LIGHTS",

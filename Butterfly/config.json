@@ -2,7 +2,7 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "test",
+  "name": "depth",
   "viewports": "viewports.json",
   "startFrom": 0,
   "textureNodes": [

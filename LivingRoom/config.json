@@ -3,7 +3,7 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "new_d65_illA",
+  "name": "depth",
   "startFrom": 0,
   "locations": [
     {

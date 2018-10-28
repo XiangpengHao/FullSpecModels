@@ -1,0 +1,100 @@
+[
+  {
+    "type": "TEXTURE",
+    "name": "books.000",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/books.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "box",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/round_box.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "dirt",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/dry-dirt2-albedo.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "foliage_47",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/foliage_47.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "labels",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/labels.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "lamp",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/concrete1_disp.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "metal.bottles",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/labels.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "metal.clear",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/labels.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "plastic.white.labels",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/labels.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "pot.003",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/granitesmooth1-albedo.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "wood.001",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/Panel Maple_Alb.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "wood.black",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/Floor Maple_Alb.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "wood.clear",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/Panel Maple_Alb.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "wood.red",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "//textures/ColorData/Panel Maple_Alb.jpg"
+  }
+]

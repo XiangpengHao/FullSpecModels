@@ -1,0 +1,369 @@
+{
+  "texturePath": "textures/ColorData",
+  "intermediatePath": "textures/intermediate",
+  "scene": "Scene",
+  "name": "bath0",
+  "viewports": "viewports.json",
+  "startFrom": 0,
+  "textureNodes": "textures.json",
+  "colorNodes": [
+    {
+      "type": "WORLDS",
+      "name": "World",
+      "node": "Background.002",
+      "input": "Color",
+      "value": [1, 1, 1]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "emissions",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.800000011920929, 0.800000011920929, 0.800000011920929, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "emissions.001",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.800000011920929, 0.800000011920929, 0.800000011920929, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "emissions.002",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.800000011920929, 0.800000011920929, 0.800000011920929, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "emissions.003",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.800000011920929, 0.800000011920929, 0.800000011920929, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "frame.002",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.7874122262001038, 0.4162715673446655, 0.2094423770904541, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "glass.003",
+      "node": "Mix.001",
+      "input": "Color2",
+      "value": [0.7096356749534607, 0.7401809692382812, 0.7874132394790649, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "glass.transparemt",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.7645838856697083, 0.8000000715255737, 0.76251220703125, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "glass.transparemt.001",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.7645838856697083, 0.8000000715255737, 0.76251220703125, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "gold.dark.001",
+      "node": "Glossy BSDF",
+      "input": "Color",
+      "value": [0.6374130845069885, 0.5639255046844482, 0.4421464502811432, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "gold.dark.001",
+      "node": "Mix.006",
+      "input": "Color1",
+      "value": [
+        0.04696420580148697,
+        0.033184587955474854,
+        0.020443176850676537,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "gold.dark.001",
+      "node": "Mix.006",
+      "input": "Color2",
+      "value": [0.7874122858047485, 0.524018406867981, 0.2912490665912628, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "marble.white",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.735037088394165, 0.7557359337806702, 0.7874122262001038, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "metal.004",
+      "node": "Glossy BSDF",
+      "input": "Color",
+      "value": [
+        0.27813249826431274,
+        0.31854677200317383,
+        0.3060862421989441,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "metal.004",
+      "node": "Diffuse BSDF",
+      "input": "Color",
+      "value": [
+        0.014832870103418827,
+        0.016649432480335236,
+        0.019606657326221466,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "metal.gold",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.7874122262001038, 0.5802904367446899, 0.2912490665912628, 1.0]
+    },
+
+    {
+      "type": "MATERIAL",
+      "name": "metal.yellow",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.7874122262001038, 0.534187376499176, 0.2094423770904541, 1.0]
+    },
+
+    {
+      "type": "MATERIAL",
+      "name": "parfume",
+      "node": "Glass BSDF",
+      "input": "Color",
+      "value": [
+        0.7874122262001038,
+        0.41516730189323425,
+        0.14289209246635437,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "plastic.pearl",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.7874122262001038,
+        0.5615811347961426,
+        0.25663867592811584,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "radiator",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.8000000715255737, 0.7660232782363892, 0.7057114243507385, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "tiles.blue",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [
+        0.10215651988983154,
+        0.12711159884929657,
+        0.1706448793411255,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "tiles.blue.light",
+      "node": "Principled BSDF",
+      "input": "Base Color",
+      "value": [0.34178322553634644, 0.40873983502388, 0.5225215554237366, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "towel",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.7874122262001038, 0.7213971614837646, 0.6085841059684753, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "towel",
+      "node": "Velvet BSDF",
+      "input": "Color",
+      "value": [0.7874122262001038, 0.7213971614837646, 0.6085841059684753, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "towel.blue",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.018256306648254395,
+        0.043378159403800964,
+        0.1065390557050705,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "towel.blue",
+      "node": "Velvet BSDF",
+      "input": "Color",
+      "value": [
+        0.45600464940071106,
+        0.5760064125061035,
+        0.7874122262001038,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "towel.red",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.10653924196958542,
+        0.028019165620207787,
+        0.01825742982327938,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "towel.red",
+      "node": "Mix.001",
+      "input": "Color2",
+      "value": [
+        0.5225215554237366,
+        0.06779716908931732,
+        0.029342850670218468,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "towel.red",
+      "node": "Velvet BSDF",
+      "input": "Color",
+      "value": [0.7874122262001038, 0.5496540069580078, 0.5040221810340881, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.000",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.3185468018054962,
+        0.21464772522449493,
+        0.12192953377962112,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.001",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [0.5202426910400391, 0.3480134904384613, 0.195169597864151, 1.0]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.002",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.3185468018054962,
+        0.21464772522449493,
+        0.12192953377962112,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.003",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.3185468018054962,
+        0.21464772522449493,
+        0.12192953377962112,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.black",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.12394053488969803,
+        0.0787060335278511,
+        0.03164399787783623,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.black.001",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.01960664987564087,
+        0.01960664987564087,
+        0.01960664987564087,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.dark",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.0134117491543293,
+        0.007014932576566935,
+        0.002318774117156863,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.floor",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.7874122262001038,
+        0.5802898406982422,
+        0.29124897718429565,
+        1.0
+      ]
+    },
+    {
+      "type": "MATERIAL",
+      "name": "wood.red",
+      "node": "Mix",
+      "input": "Color2",
+      "value": [
+        0.3185468018054962,
+        0.04359803348779678,
+        0.019605441018939018,
+        1.0
+      ]
+    }
+  ]
+}

@@ -150,7 +150,10 @@
     {
       "type": "MATERIAL",
       "name": "emissions.002",
-      "node": "Principled BSDF",
+      "node": [
+        "Emission.001",
+        "Emission"
+      ],
       "input": "Base Color",
       "__nickname": "illF",
       "value": [
@@ -220,8 +223,11 @@
     {
       "type": "MATERIAL",
       "name": "emissions.003",
-      "node": "Principled BSDF",
-      "input": "Base Color",
+      "node": [
+        "Emission",
+        "Emission.001"
+      ],
+      "input": "Color",
       "__nickname": "illA",
       "value": [
         0.07420256,

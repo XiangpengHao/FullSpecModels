@@ -1,6 +1,26 @@
 [
   {
     "type": "TEXTURE",
+    "name": "towel.blue",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "Fabric03_col.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "towel",
+    "node": "Image Texture",
+    "input": "image",
+    "value": "Fabric03_col.jpg"
+  },
+  {
+    "type": "TEXTURE",
+    "name": "wood.floor",
+    "input": "image",
+    "value": "Panel Maple_Alb.jpg"
+  },
+  {
+    "type": "TEXTURE",
     "name": "books.000",
     "node": "Image Texture",
     "input": "image",

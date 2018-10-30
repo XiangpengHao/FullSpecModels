@@ -16,6 +16,7 @@
   {
     "type": "TEXTURE",
     "name": "wood.floor",
+    "node": "Image Texture",
     "input": "image",
     "value": "Panel Maple_Alb.jpg"
   },

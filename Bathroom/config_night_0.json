@@ -6,6 +6,12 @@
   "viewports": "viewports.json",
   "startFrom": 0,
   "textureNodes": "textures.json",
+  "renderLayers": [
+    "use_pass_diffuse_color",
+    "use_pass_glossy_direct",
+    "use_pass_shadow",
+    "use_pass_ambient_occlusion"
+  ],
   "colorNodes": [
     {
       "type": "LIGHTS",
@@ -293,7 +299,6 @@
         1
       ]
     },
-    
     {
       "type": "MATERIAL",
       "name": "marble.white",
@@ -363,7 +368,6 @@
         0.7374508798461347
       ]
     },
-   
     {
       "type": "MATERIAL",
       "name": "metal.gold",
@@ -1399,7 +1403,6 @@
         0.5684640533601364
       ]
     },
-    
     {
       "type": "MATERIAL",
       "name": "wood.black",

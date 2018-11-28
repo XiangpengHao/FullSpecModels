@@ -2,7 +2,6 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "bath3_exr",
   "viewports": "viewports.json",
   "startFrom": 0,
   "textureNodes": "textures.json",

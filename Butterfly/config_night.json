@@ -2,9 +2,17 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "night_lights",
   "viewports": "viewports.json",
   "startFrom": 0,
+  "renderLayers": [
+    "use_pass_diffuse_color",
+    "use_pass_diffuse_direct",
+    "use_pass_diffuse_indirect",
+    "use_pass_glossy_color",
+    "use_pass_glossy_direct",
+    "use_pass_glossy_indirect",
+    "use_pass_combined"
+  ],
   "textureNodes": [
     {
       "type": "TEXTURE",

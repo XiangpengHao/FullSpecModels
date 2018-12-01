@@ -2,13 +2,29 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "new_d40_p20k_sun0",
   "startFrom": 0,
+  "renderLayers": [
+    "use_pass_diffuse_color",
+    "use_pass_diffuse_direct",
+    "use_pass_diffuse_indirect",
+    "use_pass_glossy_color",
+    "use_pass_glossy_direct",
+    "use_pass_glossy_indirect",
+    "use_pass_combined"
+  ],
   "locations": [
     {
       "name": "Sun",
-      "location": [2.3872485160827637, -0.8223152160644531, 5.334153652191162],
-      "rotation": [0.48345619440078735, -1.377064824104309, 3.1677727699279785]
+      "location": [
+        2.3872485160827637,
+        -0.8223152160644531,
+        5.334153652191162
+      ],
+      "rotation": [
+        0.48345619440078735,
+        -1.377064824104309,
+        3.1677727699279785
+      ]
     }
   ],
   "textureNodes": [

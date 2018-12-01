@@ -63,7 +63,7 @@
       "name": "curtain",
       "node": "Image Texture",
       "input": "image",
-      "value": "Fabric03_col"
+      "value": "Fabric03_col_yellow"
     },
     {
       "type": "TEXTURE",

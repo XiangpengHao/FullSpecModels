@@ -3,16 +3,167 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "depth",
   "startFrom": 0,
   "locations": [
     {
       "name": "Sun",
-      "location": [2.3872485160827637, -0.8223152160644531, 5.334153652191162],
-      "rotation": [0.7853981852531433, 1.2514009475708008, 0.19024087488651276]
+      "location": [
+        2.3872485160827637,
+        -0.8223152160644531,
+        5.334153652191162
+      ],
+      "rotation": [
+        0.7853981852531433,
+        1.2514009475708008,
+        0.19024087488651276
+      ]
     }
   ],
+  "renderLayers": [
+    "use_pass_diffuse_color",
+    "use_pass_diffuse_direct",
+    "use_pass_diffuse_indirect",
+    "use_pass_glossy_color",
+    "use_pass_glossy_direct",
+    "use_pass_glossy_indirect",
+    "use_pass_combined"
+  ],
   "viewports": "viewports.json",
+  "textureNodes": [
+    {
+      "type": "TEXTURE",
+      "name": "09112011601g",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "09112011601g"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "books.003",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "books"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "box",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "round_box_var2"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "carpet",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Fabric03_col_yellow"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "curtain",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Fabric03_col_yellow"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "dirt",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "sandydrysoil-albedo"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "doors",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "WP_20180420_006g"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "floor",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Parquet_flooring_03_Color"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "lamp.cloth",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "texture-1821533_1280"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "laptop",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "laptop"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "laptop.screen",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "laptop_screen"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "leaves",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "LeafSet02_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "leaves.dark",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "LeafSet02_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "leaves.var2",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "LeafSet02_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "marble",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "marble-speckled-albedo"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "sofa",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Fabric08_col"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "wood",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "brown_planks_03_diff_4k_brown"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "wood.clear.002",
+      "node": "Image Texture",
+      "input": "image",
+      "value": "Wood"
+    },
+    {
+      "type": "TEXTURE",
+      "name": "wood.sofa",
+      "node": "Image Texture.001",
+      "input": "image",
+      "value": "Wood"
+    }
+  ],
   "colorNodes": [
     {
       "type": "LIGHTS",

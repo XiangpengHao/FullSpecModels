@@ -2,10 +2,18 @@
   "texturePath": "textures/ColorData",
   "intermediatePath": "textures/intermediate",
   "scene": "Scene",
-  "name": "bath3_exr",
   "viewports": "viewports.json",
   "startFrom": 0,
   "textureNodes": "textures.json",
+  "renderLayers": [
+    "use_pass_diffuse_color",
+    "use_pass_diffuse_direct",
+    "use_pass_diffuse_indirect",
+    "use_pass_glossy_color",
+    "use_pass_glossy_direct",
+    "use_pass_glossy_indirect",
+    "use_pass_combined"
+  ],
   "colorNodes": [
     {
       "type": "LIGHTS",
@@ -150,7 +158,10 @@
     {
       "type": "MATERIAL",
       "name": "emissions.002",
-      "node": ["Emission.001", "Emission"],
+      "node": [
+        "Emission.001",
+        "Emission"
+      ],
       "input": "Color",
       "__nickname": "illA",
       "value": [
@@ -220,7 +231,10 @@
     {
       "type": "MATERIAL",
       "name": "emissions.003",
-      "node": ["Emission", "Emission.001"],
+      "node": [
+        "Emission",
+        "Emission.001"
+      ],
       "input": "Color",
       "__nickname": "illA",
       "value": [
@@ -1322,7 +1336,6 @@
         0.8275207924842836
       ]
     },
-
     {
       "type": "MATERIAL",
       "name": "wood.001",
